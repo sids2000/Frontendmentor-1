@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    width: 60%;
+    height: 50vh;
+    margin: 150px auto;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    background-color: hsl(244, 38%, 16%);
+}
+
+.card {
+    height: 100%;
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+}
+
+.card h1 {
+    padding-bottom: 30px ;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.card h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.card p {
+    padding-bottom: 70px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+
+.card ul {
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.card li {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);;
+}
+
+.stats {
+    font-size: 0.7rem;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+}
+
+.image {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0px 10px 10px 0px;  
+    background-image:linear-gradient( rgba(162, 86, 208, 0.5), rgba(162, 86, 208, 0.5) ), url('./images/image-header-desktop.jpg');
+}
+
+@media (max-width:500px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
