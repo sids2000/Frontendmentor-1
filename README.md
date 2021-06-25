@@ -20,7 +20,7 @@ Users should be able to:
 
 ### Screenshot
 
-![[Design preview for the Stats preview card component coding challenge](./screenshot.png)
+![Design preview for the Stats preview card component coding challenge](./screenshot.png)
 
 ### Links
 
